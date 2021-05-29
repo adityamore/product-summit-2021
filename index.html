@@ -24,7 +24,9 @@
 </head>
 
 <body>
-  <include src="partials/navbar.html"></include>
+  <include src="partials/navbar.html"locals='{
+        "page": "home"
+    }'></include>
   <!-- Add your site or application content here -->
   <h1>H1 Page Headers </h1>
   <div class="hero-headline">
@@ -38,7 +40,7 @@
   <br>
   <h6>H6 Lucid to the Moon</h6>
   <p>Paragraph Hello world! This is HTML5 Boilerplate.</p>
-  <img src="./img/page-headers/agenda.png" class="img-fluid"> 
+  <img src="./img/page-headers/agenda.png" class="img-fluid">
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
