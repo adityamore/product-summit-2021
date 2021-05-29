@@ -28,6 +28,10 @@ html {
   line-height: 1.4;
 }
 
+body {
+  font-family: 'Roboto';
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -101,7 +105,7 @@ textarea {
 p {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-  
+
 }
 
 h1, h2 {
@@ -335,4 +339,3 @@ h6 {
     page-break-after: avoid;
   }
 }
-
