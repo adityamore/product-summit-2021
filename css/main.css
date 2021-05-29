@@ -147,9 +147,14 @@ h6 {
 /* Custom Typography */
 /* Landing Page */
 
-.hero h2 {
+.hero-container {
+  padding: 4rem 0rem 4rem 0rem;
+}
+
+.hero-headline h2 {
   font-size: 4.5rem;
-  line-height: 5rem;
+  line-height: 6rem;
+  color: white;
 }
 
 .hero-headline h2 > span {
@@ -158,12 +163,23 @@ h6 {
   line-height: 2rem;
 }
 
+.hero-subheadline h4 {
+  padding: 4rem 0 1rem 0;
+  color: white;
+  max-width: 70%;
+}
 
 .hero-subheadline h5 {
   color: var(--secondary-text-color);
   line-height: 0.2rem;
 }
 
+.hero-bg-image {
+  background-image: url(/img/page-headers/home-hero.png);
+  min-height: fit-content;
+
+    background-size: cover;
+}
 
 
 /* ==========================================================================
