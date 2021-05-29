@@ -1,6 +1,7 @@
 
 .main-nav {
   background-color: black;
+  font-weight: 400;
 }
 
 .lucid-nav-logo {
@@ -11,4 +12,21 @@
 .nav-title::before {
   content: "|";
   margin-right: 10px;
+}
+
+.nav-title {
+  font-family: 'MuseoModerno';
+  font-size: 16px;
+}
+
+/* .main-nav .nav > .active ,
+.main-nav .nav > .active > a:hover,
+.main-nav .nav > .active > a:focus {
+  border-bottom: 2px solid white;
+  color: red;
+} */
+
+.main-nav .nav-item > .nav-link.active {
+  border-bottom: 2px solid #9391FF;
+  font-weight: 600;
 }
