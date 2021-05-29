@@ -154,14 +154,13 @@ h6 {
   line-height: 2rem;
 }
 
-.hero-subheadline h4 {
-  line-height: 0rem;
-}
 
 .hero-subheadline h5 {
   color: var(--secondary-text-color);
-  line-height: 0rem;
+  line-height: 0.2rem;
 }
+
+
 
 /* ==========================================================================
    Helper classes
