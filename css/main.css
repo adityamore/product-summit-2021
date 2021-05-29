@@ -11,9 +11,20 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+/* Font Imports */
+
+/* Museo Moderno+Roboto */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700;800;900&family=Roboto:wght@400;900&display=swap');
+
+:root {
+  --primary-text-color: #282C33;
+  --secondary-text-color: #A9AFB8;
+}
+
 html {
-  color: #222;
-  font-size: 1em;
+  color: var(--text-color);  /* This is a single-line comment */
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -84,8 +95,73 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Typography
    ========================================================================== */
+
+p {
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+h1, h2 {
+  font-family: 'MuseoModerno', sans-serif;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h1 {
+  font-size: 5.5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+/* Custom Typography */
+/* Landing Page */
+
+.hero h2 {
+  font-size: 4.5rem;
+  line-height: 5rem;
+}
+
+.hero-headline h2 > span {
+  color: var(--secondary-text-color);
+  display: block;
+  line-height: 2rem;
+}
+
+.hero-subheadline h4 {
+  line-height: 0rem;
+}
+
+.hero-subheadline h5 {
+  color: var(--secondary-text-color);
+  line-height: 0rem;
+}
 
 /* ==========================================================================
    Helper classes
