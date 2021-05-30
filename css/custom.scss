@@ -36,10 +36,37 @@ $dark: #000;
   background-size: auto;
   display: flex;
   align-items: center;
+  margin-top:64px;
 }
 
 .page-container {
   padding-top: 40px;
+}
+
+.page-container .row {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.inserted-image {
+  max-height: 100%;
+  width: auto;
+}
+
+.image-caption {
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+#salt-lake-city-image{
+  display: inline-block;
+  height: 200px;
+}
+
+#embassy-suite-image {
+  display: inline-block;
+  height: 200px;
 }
 
 #agenda-header {
@@ -56,4 +83,8 @@ $dark: #000;
 
 #faqs-header {
   background-image: url("/img/page-headers/faqs.png");
+}
+
+#travel-header {
+  background-image: url("/img/page-headers/travel.png");
 }
