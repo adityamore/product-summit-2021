@@ -2,6 +2,8 @@
 .main-nav {
   background-color: black;
   font-weight: 400;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .main-nav .navbar-nav .nav-link {
@@ -32,7 +34,12 @@
   margin: 8px;
 }
 
+.main-nav .nav-link {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
 .main-nav .nav-item > .nav-link.active {
-  border-bottom: 2px solid #9391FF;
+  border-bottom: 4px solid #9391FF;
   font-weight: 600;
 }
