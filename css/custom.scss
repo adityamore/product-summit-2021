@@ -19,6 +19,7 @@ $dark: #000;
 @import "../node_modules/bootstrap/scss/transitions";
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/utilities/api";
 
 
@@ -37,7 +38,7 @@ $dark: #000;
   align-items: center;
 }
 
-.google-form-container {
+.page-container {
   padding-top: 40px;
 }
 
@@ -51,4 +52,8 @@ $dark: #000;
 
 #amas-header {
   background-image: url("/img/page-headers/amas.png");
+}
+
+#faqs-header {
+  background-image: url("/img/page-headers/faqs.png");
 }
