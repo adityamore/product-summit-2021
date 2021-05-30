@@ -1,6 +1,18 @@
 
 .main-nav {
   background-color: black;
+  font-weight: 400;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.main-nav .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 .lucid-nav-logo {
@@ -8,7 +20,26 @@
   height: 48px;
 }
 
-.nav-title::before {
-  content: "|";
-  margin-right: 10px;
+.nav-title {
+  font-family: 'MuseoModerno';
+  font-size: 16px;
+  color: #A9AFB8;
+}
+
+.verticle-divider {
+  display: inline-block;
+  width: 2px;
+  height: 32px;
+  background-color: white;
+  margin: 8px;
+}
+
+.main-nav .nav-link {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.main-nav .nav-item > .nav-link.active {
+  border-bottom: 4px solid #9391FF;
+  font-weight: 600;
 }

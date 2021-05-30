@@ -1,9 +1,10 @@
 <link rel="stylesheet" href="css/navbar.css">
 </link>
-<nav class="main-nav navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="main-nav navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img class="lucid-nav-logo" src="img/common-assets/Lucid-Software-Logo.png"></img>
+      <div class="verticle-divider"></div>
       <span class="nav-title">2021 Product Summit</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,15 +12,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="/index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="/agenda.html">Agenda</a></li>
-        <li class="nav-item"><a class="nav-link" href="/speakers.html">Speakers</a></li>
-        <li class="nav-item"><a class="nav-link" href="/locations.html">Locations</a></li>
-        <li class="nav-item"><a class="nav-link" href="/travel.html">Travel</a></li>
-        <li class="nav-item"><a class="nav-link" href="/faqs.html">FAQs</a></li>
-        <li class="nav-item"><a class="nav-link" href="/amas.html">AMAs</a></li>
-        <li class="nav-item"><a class="nav-link" href="/trivia.html">Trivia</a></li>
+        <li class="nav-item"><a class="nav-link" id="home" href="/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" id="agenda" href="/agenda.html">Agenda</a></li>
+        <li class="nav-item"><a class="nav-link" id="speakers" href="/speakers.html">Speakers</a></li>
+        <li class="nav-item"><a class="nav-link" id="locations" href="/locations.html">Locations</a></li>
+        <li class="nav-item"><a class="nav-link" id="travel" href="/travel.html">Travel</a></li>
+        <li class="nav-item"><a class="nav-link" id="faqs" href="/faqs.html">FAQs</a></li>
+        <li class="nav-item"><a class="nav-link" id="amas" href="/amas.html">AMAs</a></li>
+        <li class="nav-item"><a class="nav-link" id="trivia" href="/trivia.html">Trivia</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+<script type="text/javascript">
+  var page = "{{ page }}";
+  link = document.getElementById(page);
+  if (link) {
+    link.classList.add("active");
+  }
+</script>
