@@ -4,27 +4,33 @@
   font-weight: 400;
 }
 
+.main-nav .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
 .lucid-nav-logo {
   width: 121px;
   height: 48px;
 }
 
-.nav-title::before {
-  content: "|";
-  margin-right: 10px;
-}
-
 .nav-title {
   font-family: 'MuseoModerno';
   font-size: 16px;
+  color: #A9AFB8;
 }
 
-/* .main-nav .nav > .active ,
-.main-nav .nav > .active > a:hover,
-.main-nav .nav > .active > a:focus {
-  border-bottom: 2px solid white;
-  color: red;
-} */
+.verticle-divider {
+  display: inline-block;
+  width: 2px;
+  height: 32px;
+  background-color: white;
+  margin: 8px;
+}
 
 .main-nav .nav-item > .nav-link.active {
   border-bottom: 2px solid #9391FF;
