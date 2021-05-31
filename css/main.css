@@ -224,6 +224,21 @@ h6 {
   border: 0.15rem solid rgba(255, 255, 255, 0.3);
 }
 
+.agenda-card {
+  border: 1px solid var(--primary-text-color);
+  border-radius: 5px;
+  width: 90%;
+}
+
+.agenda-card-date {
+  background: black;
+  border-radius: 4px 0 0 4px;
+}
+
+.agenda-card-date > h6 {
+  color: white;
+}
+
 
 /* ==========================================================================
    Helper classes
