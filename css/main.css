@@ -60,7 +60,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #DFE3E8 !important;
   margin: 1em 0;
   padding: 0;
 }
@@ -239,6 +239,36 @@ h6 {
   color: white;
 }
 
+.speakers a {
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: var (var(--primary-text-color));
+}
+
+.speakers a:hover {
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #9391FF;
+  transition: 0.3s ease;
+}
+
+.speakers img {
+  border-radius: 4px;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+  transition: all 1s ease-in;
+}
+
+
+.speakers img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 0.3s ease;
+}
 
 /* ==========================================================================
    Helper classes
