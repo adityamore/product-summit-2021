@@ -21,6 +21,7 @@ $dark: #000;
 @import "../node_modules/bootstrap/scss/helpers";
 @import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/carousel";
 
 
 .page-title {
@@ -67,6 +68,12 @@ hr.divider-solid {
 
 .break-card .agenda-card-date {
   background-color: grey;
+}
+
+#lookbackCarousel {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 40px;
 }
 
 #salt-lake-city-image{
