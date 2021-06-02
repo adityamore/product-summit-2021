@@ -227,12 +227,11 @@ h6 {
 .agenda-card {
   border: 1px solid var(--primary-text-color);
   border-radius: 5px;
-  width: 90%;
+  overflow: hidden;
 }
 
 .agenda-card-date {
   background: black;
-  border-radius: 4px 0 0 4px;
 }
 
 .agenda-card-date > h6 {

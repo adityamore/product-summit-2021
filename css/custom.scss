@@ -59,6 +59,16 @@ $dark: #000;
   padding-bottom: 8px;
 }
 
+hr.divider-solid {
+  border-top: 3px solid #bbb;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.break-card .agenda-card-date {
+  background-color: grey;
+}
+
 #salt-lake-city-image{
   display: inline-block;
   height: 200px;
