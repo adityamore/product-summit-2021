@@ -23,6 +23,7 @@ $dark: #000;
 @import "../node_modules/bootstrap/scss/utilities/api";
 @import "../node_modules/bootstrap/scss/carousel";
 
+$cool-grey-80: #6F7681;
 
 .page-title {
   color: white;
@@ -66,8 +67,20 @@ hr.divider-solid {
   margin-bottom: 16px;
 }
 
+.break-card.agenda-card {
+  border: 1px solid $cool-grey-80;
+}
+
 .break-card .agenda-card-date {
-  background-color: grey;
+  background-color: $cool-grey-80;
+}
+
+.break-card .agenda-card-content {
+  background-image: url('/img/common-assets/break-cat.png');
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+  background-size: auto;
 }
 
 .button32 {

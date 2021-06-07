@@ -224,7 +224,7 @@ h6 {
 
 .agenda-card {
   border: 1px solid var(--primary-text-color);
-  border-radius: 5px;
+  border-radius: 16px;
   overflow: hidden;
 }
 
