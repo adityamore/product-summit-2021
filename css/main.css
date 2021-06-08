@@ -176,6 +176,7 @@ h6 {
 .hero-bg-image {
   background-image: url(/img/page-headers/hero-home.png);
   background-size: cover;
+  background-color: black;
 }
 
 .homepage-card-outline {
