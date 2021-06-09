@@ -110,6 +110,10 @@ hr.divider-solid {
   padding: 12px 16px;
 }
 
+.current > .agenda-card-date {
+  background-color: $primary;
+}
+
 #lookbackCarousel {
   border-radius: 8px;
   overflow: hidden;
