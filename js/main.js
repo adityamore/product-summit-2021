@@ -12,13 +12,12 @@ function checkAgenda() {
 
   if (currentEvent[0]) {
     var currentEventElement = document.querySelector('#' + currentEvent[0].eventId);
-    console.log(currentEventElement);
     if (currentEventElement) {
       currentEventElement.classList.add('current');
     }
   }
 }
 
-document.onload = checkAgenda;
+checkAgenda();
 
 setInterval(checkAgenda, 10000);
