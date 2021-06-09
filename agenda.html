@@ -296,6 +296,7 @@
     var day2Elem = document.querySelector('#agendaTab button[data-bs-target="#day2"]');
     var day1Tab = new bootstrap.Tab(day1Elem);
     var day2Tab = new bootstrap.Tab(day2Elem);
+    var urlParams = new URLSearchParams(window.location.search);
     function showDay1() {
       day1Tab.show();
       document.querySelector('#agenda-header').scrollIntoView();
@@ -306,6 +307,9 @@
     }
     document.querySelector('#day1button').addEventListener("click", showDay1);
     document.querySelector('#day2button').addEventListener("click", showDay2);
+    if (urlParams.has('day2')) {
+      day2Tab.show();
+    }
   </script>
 </body>
 
