@@ -19,4 +19,6 @@ function checkAgenda() {
   }
 }
 
+document.onload = checkAgenda;
+
 setInterval(checkAgenda, 10000);
