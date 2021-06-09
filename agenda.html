@@ -309,6 +309,8 @@
     document.querySelector('#day2button').addEventListener("click", showDay2);
     if (urlParams.has('day2')) {
       day2Tab.show();
+    } else if (urlParams.has('day1')) {
+      day1Tab.show();
     }
   </script>
 </body>
